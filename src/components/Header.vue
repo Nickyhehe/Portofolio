@@ -11,7 +11,7 @@
                     
                     <Icon class="animate__animated animate__tada animate__delay-2s animate__infinite" icon="fxemoji:waving" width="40" height="40"  /> Hello, My Name is
                 </p>
-                <h1 
+                <h1 id="Nicky"
                     class="animate__animated animate__fadeIn animate__delay-0.5s">Nicky Dharmawan
                 </h1>
     
@@ -146,14 +146,17 @@ header{
     
     @media (max-width: 640px) {
     h1{
-        font-size: 3em;
+        font-size: 2em;
     }
 
     #intro{
         #intro-con{
-    
+            
+            p{
+                font-size: 1.5em ;
+            }
             #myself{
-                font-size: 0.9em;
+                font-size: 0.8em;
                
             }
         }

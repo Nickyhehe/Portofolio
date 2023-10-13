@@ -76,7 +76,7 @@ export default {
 
 
     #skill{
-        margin: 20px 80px;
+        margin: 20px 50px;
         border-radius: 5px;
      
        
