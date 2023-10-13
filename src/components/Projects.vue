@@ -66,22 +66,22 @@ export default {
                 id: 4,
                 name: 'Coming Soon',
                 desc: 'test aja',
-                image:  ("../public/images/gerak1.gif"),
+                image:  ("public/images/gerak1.gif"),
 
             },
             {
                 id: 5,
                 name: 'Coming Soon',
                 desc: 'test aja',
-                image:  ("../public/images/gerak1.gif"),
+                image:  ("public/images/gerak1.gif"),
 
             },
             {
                 id: 6,
                 name: 'Coming Soon',
                 desc: 'test aja',
-                image:  ("../public/images/gerak1.gif"),
-
+                image:  ("public/images/gerak1.gif"),
+                    
             },
 
             ]
