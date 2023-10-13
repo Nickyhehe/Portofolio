@@ -4,13 +4,14 @@
        <div id="dalem">
         <h2>Nikkī</h2>
        
-        <ul>
+        <div id="ul">
             <li><a href="#about">About</a></li>
             <li><a href="#skill-con">Skills</a></li>
             <li><a href="#projects">Projects</a></li>
             <li><a href="#contact">Contact</a></li>
+        </div>
          
-        </ul>
+        
 
     </div>
         
@@ -61,9 +62,9 @@ export default {
 
     }
 
-    ul{
+    #ul{
         display: flex;
-        
+       
         
     
         li{
@@ -104,7 +105,7 @@ export default {
 
 
 @media (max-width: 640px){
-    ul{
+    #ul{
         li{
             a{
                 font-size: 15px;
@@ -124,17 +125,17 @@ export default {
 }
 
 @media (max-width: 430px){
-    ul{
+    #ul{
         
         li{
-            font-size: 10px;
+            font-size: 9px;
            
         }
     }
 
     #navbar{
         h2{
-            font-size: 16px;
+            font-size: 18px;
         }
 
     }

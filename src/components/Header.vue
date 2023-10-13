@@ -73,10 +73,11 @@ header{
       padding-top: 90px;
         text-align: center;
         
+        
        
         #intro-con{
-         
-            width: 80%;
+            
+            width: 95%;
             margin: 0 auto;
             padding: 30px;
 
@@ -85,6 +86,7 @@ header{
                 display: block;
                 text-align: center;
                 margin: 0 auto;
+                width: 80%;
                 
             }
         }
@@ -146,23 +148,43 @@ header{
     
     @media (max-width: 640px) {
     h1{
-        font-size: 2em;
+        font-size: 2.5em;
     }
 
     #intro{
         #intro-con{
             
             p{
-                font-size: 1.5em ;
+                font-size: 1.6em ;
             }
             #myself{
-                font-size: 0.8em;
+                font-size: 1em;
                
             }
         }
        
         }
     }
+
+    @media (max-width: 430px) {
+        h1{
+            font-size: 2.1em;
+        }
+    
+        #intro{
+            #intro-con{
+                
+                p{
+                    font-size: 1.3em ;
+                }
+                #myself{
+                    font-size: 0.8em;
+                   
+                }
+            }
+           
+            }
+        }
     
 }
 

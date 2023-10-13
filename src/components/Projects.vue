@@ -45,7 +45,7 @@ export default {
                 id: 1,
                 name: 'Nukang.Com',
                 desc: "Nukang.Com is a part of Binus University Project, offering a convenient online platfrom to find reliable handyman services. Built using ASP.NET, HTML , CSS and SQL Server",
-                image: ("../src/assets/Nukang.png"),
+                image: ("../public/images/Nukang.png"),
                 links: "https://github.com/Nickyhehe/Nukangs.COM",
 
             },
@@ -53,34 +53,34 @@ export default {
                 id: 2,
                 name: 'Coming Soon',
                 desc: 'test aja',
-                image:  ("../src/assets/gerak1.gif")
+                image:  ("../public/images/gerak1.gif"),
             },
             {
                 id: 3,
                 name: 'Coming Soon',
                 desc: 'test aja',
-                image:  ("../src/assets/gerak1.gif")
+                image:  ("../public/images/gerak1.gif"),
 
             },
             {
                 id: 4,
                 name: 'Coming Soon',
                 desc: 'test aja',
-                image:  ("../src/assets/gerak1.gif")
+                image:  ("../public/images/gerak1.gif"),
 
             },
             {
                 id: 5,
                 name: 'Coming Soon',
                 desc: 'test aja',
-                image:  ("../src/assets/gerak1.gif")
+                image:  ("../public/images/gerak1.gif"),
 
             },
             {
                 id: 6,
                 name: 'Coming Soon',
                 desc: 'test aja',
-                image:  ("../src/assets/gerak1.gif")
+                image:  ("../public/images/gerak1.gif"),
 
             },
 
