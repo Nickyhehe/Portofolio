@@ -9,7 +9,7 @@
 
                 <p>
                     
-                    <Icon class="animate__animated animate__tada animate__delay-2s animate__infinite" icon="fxemoji:waving" width="40" height="40"  /> Hello, My Name is
+                    <Icon class="animate__animated animate__tada animate__delay-2s animate__infinite tangan" icon="fxemoji:waving" width="40" height="40"  /> Hello, My Name is
                 </p>
                 <h1 id="Nicky"
                     class="animate__animated animate__fadeIn animate__delay-0.5s">Nicky Dharmawan
@@ -155,7 +155,12 @@ header{
         #intro-con{
             
             p{
-                font-size: 1.6em ;
+                font-size: 1.6em;
+
+                .tangan{
+                    width: 40px;
+                    height: 30px;
+                }
             }
             #myself{
                 font-size: 1em;
@@ -175,7 +180,12 @@ header{
             #intro-con{
                 
                 p{
-                    font-size: 1.3em ;
+                    font-size: 1em ;
+
+                    .tangan{
+                        width: 35px;
+                        height: 25px;
+                    }
                 }
                 #myself{
                     font-size: 0.8em;

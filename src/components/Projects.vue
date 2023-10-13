@@ -37,7 +37,10 @@
 </template>
 
 <script>
+import Nukang from '../assets/Nukang.png'
+import ComingSoon from '../assets/gerak1.gif'
 export default {
+    
     data(){
         return{
             projects: [
@@ -45,7 +48,7 @@ export default {
                 id: 1,
                 name: 'Nukang.Com',
                 desc: "Nukang.Com is a part of Binus University Project, offering a convenient online platfrom to find reliable handyman services. Built using ASP.NET, HTML , CSS and SQL Server",
-                image: ("../public/images/Nukang.png"),
+                image: Nukang,
                 links: "https://github.com/Nickyhehe/Nukangs.COM",
 
             },
@@ -53,34 +56,34 @@ export default {
                 id: 2,
                 name: 'Coming Soon',
                 desc: 'test aja',
-                image:  ("../public/images/gerak1.gif"),
+                image: ComingSoon,
             },
             {
                 id: 3,
                 name: 'Coming Soon',
                 desc: 'test aja',
-                image:  ("../public/images/gerak1.gif"),
+                image: ComingSoon,
 
             },
             {
                 id: 4,
                 name: 'Coming Soon',
                 desc: 'test aja',
-                image:  ("public/images/gerak1.gif"),
+                image: ComingSoon,
 
             },
             {
                 id: 5,
                 name: 'Coming Soon',
                 desc: 'test aja',
-                image:  ("public/images/gerak1.gif"),
+                image: ComingSoon,
 
             },
             {
                 id: 6,
                 name: 'Coming Soon',
                 desc: 'test aja',
-                image:  ("public/images/gerak1.gif"),
+                image: ComingSoon,
                     
             },
 
