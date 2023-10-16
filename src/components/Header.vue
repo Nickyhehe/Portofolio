@@ -171,30 +171,7 @@ header{
         }
     }
 
-    @media (max-width: 430px) {
-        h1{
-            font-size: 2.1em;
-        }
-    
-        #intro{
-            #intro-con{
-                
-                p{
-                    font-size: 1em ;
 
-                    .tangan{
-                        width: 35px;
-                        height: 25px;
-                    }
-                }
-                #myself{
-                    font-size: 0.8em;
-                   
-                }
-            }
-           
-            }
-        }
     
 }
 
