@@ -74,9 +74,10 @@ export default {
       
         flex-wrap: wrap;
         h1{
-            font-size: 23px;
-            
+            font-size: 19px;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
             margin: 0;
+            font-weight: 625;
             
         }
         p{

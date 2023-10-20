@@ -7,7 +7,6 @@
             <p>Here is some of my projects.</p>
         </div>
         
-
         <div id="pro-con">
 
             <div v-for="project in projects" :key="project.id">
@@ -22,13 +21,29 @@
                          </div>
 
                     <div id="buttons">
-                        <p><a href="">View More</a></p>
-                        <p><a :href="project.links" target="_blank">Open</a></p>
+                       
+                        <p>
+                            <a href="">
+                                <Icon class="icon" icon="entypo-social:github" width="25" />
+                                Code
+                            </a>
+                        </p>
+                        <p>
+                            <a :href="project.links" target="_blank">
+                                <Icon class="icon" icon="ion:open-outline" width="25" />
+                                Live View
+                            </a>
+                        </p>
                     </div>
-
+                    
+                
                     </div>
+                    
                 </div>
             </div>
+
+           
+
         </div>
 
     </div>
@@ -39,8 +54,12 @@
 <script>
 import Nukang from '../assets/Nukang.png'
 import ComingSoon from '../assets/gerak1.gif'
+import { Icon } from '@iconify/vue';
 export default {
-    
+    components: {
+		Icon,
+	},
+
     data(){
         return{
             projects: [
@@ -50,39 +69,40 @@ export default {
                 desc: "Nukang.Com is a part of Binus University Project, offering a convenient online platfrom to find reliable handyman services. Built using ASP.NET, HTML , CSS and SQL Server",
                 image: Nukang,
                 links: "https://github.com/Nickyhehe/Nukangs.COM",
+                linkCode: "https://github.com/Nickyhehe/Nukangs.COM",
 
             },
             {
                 id: 2,
                 name: 'Coming Soon',
-                desc: 'test aja',
+                desc: 'test',
                 image: ComingSoon,
             },
             {
                 id: 3,
                 name: 'Coming Soon',
-                desc: 'test aja',
+                desc: 'test',
                 image: ComingSoon,
 
             },
             {
                 id: 4,
                 name: 'Coming Soon',
-                desc: 'test aja',
+                desc: 'test',
                 image: ComingSoon,
 
             },
             {
                 id: 5,
                 name: 'Coming Soon',
-                desc: 'test aja',
+                desc: 'test',
                 image: ComingSoon,
 
             },
             {
                 id: 6,
                 name: 'Coming Soon',
-                desc: 'test aja',
+                desc: 'test',
                 image: ComingSoon,
                     
             },
@@ -126,7 +146,6 @@ main{
     grid-template-columns: repeat(auto-fill, minmax(calc(33.333% - 40px), 1fr));
   
     padding: 0 30px;
-   
     
 
     #project{
@@ -173,10 +192,13 @@ main{
                 
             }
             #buttons{
-              
+                display: flex;
+                justify-content: space-between;
                 p{
+                    display: flex;
+                    justify-content: space-between;
+
                     cursor: pointer;
-                    display: inline-block;
                     width: 48%;
                     background: #4854fc;
                     text-align: center;
@@ -185,6 +207,13 @@ main{
                     margin: 0;
                     font-weight: bold;
                     transition: background-color 0.3s;
+                    justify-content: center;
+                    align-items: center;
+
+                    .icon{
+                        vertical-align: bottom;
+                        margin-right: 5px;
+                    }
                 }
                 p:hover{
                     background-color: #1B9AD0;
@@ -220,6 +249,7 @@ main{
 @media (max-width: 640px) {
     #pro-con {
         grid-template-columns: repeat(auto-fill, minmax(calc(100% - 40px), 1fr));
+        padding: 0 10px;
     }
 
     #pro-text{

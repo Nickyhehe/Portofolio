@@ -32,7 +32,7 @@
                 <a href="https://github.com/Nickyhehe?tab=repositories" target="_blank">
                     <Icon class="animate__animated animate__slideInUp animate__delay-0.5s" icon="mdi:github" width="90" height="60" />
                 </a>
-                <a  href="" target="_blank">
+                <a  href="https://binusianorg-my.sharepoint.com/:w:/r/personal/nicky_dharmawan_binus_ac_id/_layouts/15/guestaccess.aspx?share=EZM48HMHjpJBrGpbzdfb5KsBD5FnVRp3PRltTWH6MXc0fA&e=zKGBzs" target="_blank">
                     <Icon class="animate__animated animate__slideInRight animate__delay-0.5s" id="CV" icon="academicons:cv-square"  width="85" height="55" />
                 </a>
                 
@@ -66,13 +66,13 @@ header{
 
     min-height: 100vh;
     align-items: center;
- 
+  
 
 
     #intro{
       padding-top: 90px;
         text-align: center;
-        
+        //background: blue;
         
        
         #intro-con{
@@ -133,13 +133,15 @@ header{
        h1{
         font-size: 4em;
        }
+      
 
        #intro{
         #intro-con{
     
             #myself{
                 font-size: 1em;
-               
+                //text-align: justify;
+                
             }
         }
        
@@ -150,6 +152,9 @@ header{
     h1{
         font-size: 2.5em;
     }
+
+ 
+ 
 
     #intro{
         #intro-con{
@@ -163,7 +168,7 @@ header{
                 }
             }
             #myself{
-                font-size: 1em;
+                //font-size: 1em;
                
             }
         }
