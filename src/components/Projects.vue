@@ -19,11 +19,11 @@
                             <h1>{{project.name}}</h1>
                             <p>{{project.desc}}</p>
                          </div>
-
+                         
                     <div id="buttons">
                        
                         <p>
-                            <a href="">
+                            <a :href="project.linkCode" target="_blank">
                                 <Icon class="icon" icon="entypo-social:github" width="25" />
                                 Code
                             </a>
@@ -54,6 +54,8 @@
 <script>
 import Nukang from '../assets/Nukang.png'
 import ComingSoon from '../assets/gerak1.gif'
+import Porto from '../assets/Porto.png'
+import UTS from '../assets/UTS.png'
 import { Icon } from '@iconify/vue';
 export default {
     components: {
@@ -74,15 +76,20 @@ export default {
             },
             {
                 id: 2,
-                name: 'Coming Soon',
-                desc: 'test',
-                image: ComingSoon,
+                name: 'Portfolio',
+                desc: 'My own portfolio website as a showcase and a portfolio. This application was also related to binus intership program, becase it required a website. I built this website with Vue,js, Vuex',
+                image: Porto,
+                links: "https://portofolio-one-gules.vercel.app/",
+                linkCode: "https://github.com/Nickyhehe/Portofolio"
+
             },
             {
                 id: 3,
-                name: 'Coming Soon',
-                desc: 'test',
-                image: ComingSoon,
+                name: 'UnderTheSea',
+                desc: 'This website is a project task assigned by Binus in the subject HCI. This webiste is about the information of life under the sea. This project is created with pure Vanilla HTML, CSS, and Javascript',
+                image: UTS,
+                links: "https://under-the-sea-three.vercel.app/",
+                linkCode: "https://github.com/Nickyhehe/UnderTheSea"
 
             },
             {
